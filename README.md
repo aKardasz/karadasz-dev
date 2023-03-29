@@ -15,12 +15,18 @@
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+    Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 ## CMD:
 
-````docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar .
-docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker```
-````
+    ```
+    docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar .
+    docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker
+    ```
+    ```
+    docker compose up
+    ```
 
 npm
