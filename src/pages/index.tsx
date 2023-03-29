@@ -379,8 +379,8 @@ const Home: NextPage = () => {
                   </li>
                   <li>
                     Built pipelines to ingest and process sensitive data, with
-                    strict internal data security policies given the company's
-                    primary clientele being involved with the Military.
+                    strict internal data security policies given the company
+                    {"'"}s primary clientele being involved with the Military.
                   </li>
                   <li>
                     Updated legacy pipelines to a modern stack achieving 20/30%
