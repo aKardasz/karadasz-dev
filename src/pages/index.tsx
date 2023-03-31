@@ -37,7 +37,7 @@ const LeftContainer = () => {
         <h2 className="text-2xl font-medium italic text-slate-300 ">
           Data Architect
         </h2>
-        <div c>
+        <div>
           <Link
             href="mailto:Adrian.kardasz1@gmail.com"
             className="flex items-center gap-2 align-baseline text-lg font-normal "
