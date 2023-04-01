@@ -376,46 +376,46 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_SolM_Body" className="drop-shadow-md">
-                    <ul className="mx-8 flex list-disc flex-col text-justify text-lg font-normal text-slate-600 [&>li]:mt-2">
+                    <ul className="text- mx-3 flex list-disc flex-col text-lg font-normal text-slate-600 md:mx-8 [&>li]:mt-2">
                       <span className="mt-2 text-xl font-bold text-slate-500">
                         Solution Architect - Azure Data Lake
                       </span>
-                      <li className="mx-8 font-normal">
+                      <li className="mx-3 font-normal md:mx-8">
                         <p>
                           Collaborated with cross-functional teams to plan,
                           design, and implement integrations with outside
-                          vendors as well as internal interdepartmental data
-                          sources, ensuring seamless communication and
-                          coordination.
+                          vendors and internal interdepartmental data sources,
+                          ensuring seamless communication and coordination.
                         </p>
                       </li>
-                      <li className="mx-8 font-normal">
+                      <li className="mx-3 font-normal md:mx-8">
                         <p>
-                          Lead the development of robust pipelines and
-                          integrations between SAP B1 and multiple platforms,
-                          such as Salesforce, SPS, and Amazon. Leveraging Azure
-                          services like Azure Functions, Azure Managed SQL
-                          server, Azure Databricks, Azure Analytics.
+                          Developed robust pipelines and integrations between
+                          SAP B1 and multiple platforms, such as Salesforce,
+                          SPS, and Amazon. Leveraging Azure services like Azure
+                          Functions, Azure Managed SQL server, Azure Databricks,
+                          and Azure Analytics.
                         </p>
                       </li>
-                      <li className="mx-8 font-normal">
+                      <li className="mx-3 font-normal md:mx-8">
                         <p>
                           Designed and lead a company Data
                           Exploration/Collection initiative to allow any
-                          business stakeholders to begin the proccess of
-                          building and transforming key business data utilizing
+                          business stakeholders to begin the process of building
+                          and transforming critical business data utilizing
                           Microsoft Power Platform services such as Dataverse,
-                          Power Automate, Power Apps. This initiative improved
-                          collaboration, as well as discovery and collection of
-                          various previously unutilized sources of data.
+                          Power Automate, and Power Apps. This initiative
+                          improved collaboration and the discovery and
+                          collection of various previously unutilized data
+                          sources.
                         </p>
                       </li>
 
-                      <li className="mx-8 font-normal">
+                      <li className="mx-3 font-normal md:mx-8">
                         <p>
-                          Reviewed, researched, and created company tooling such
-                          as single page web applications using ReactJS for the
-                          user interface, python for the backend, utilizing
+                          Reviewed, researched, and created company toolings
+                          such as single page web applications using ReactJS for
+                          the user interface, python for the backend, utilizing
                           services like Azure static web apps, Azure Functions,
                           Azure Active Directory, Azure blob storage, and Azure
                           Sql managed services for easier infrastructure
@@ -426,16 +426,16 @@ const Home: NextPage = () => {
                             <b className="font-medium text-slate-600">
                               Web Application 1:
                             </b>
-                            <p className="ml-8 text-justify font-normal">
+                            <p className="ml-8 text-left font-normal">
                               Manages dynamic approval workflows taking into
                               consideration company code, cost center, region,
                               location, and function for requests such as
                               Headcount changes, Employee Changes, Capital
                               Expenditures, Domestic and International Travel,
-                              stream lining human resources, finance, as well as
-                              c-suit proccesses in a compliant, auditable, and
+                              streamlining human resources, finance, as well as
+                              c-suit processes in a compliant, auditable, and
                               automated manner. With the benefit of integrations
-                              between crucial company services and software like
+                              between vital company services and software like
                               BambooHR, Microsoft Office, SAP B1, Salesforce,
                               and Powerbi.
                             </p>
@@ -444,10 +444,10 @@ const Home: NextPage = () => {
                             <b className="font-medium text-slate-600">
                               Web Application 2:
                             </b>
-                            <p className="ml-8 text-justify font-normal">
+                            <p className="ml-8 text-left font-normal">
                               Handles the collection of global employee data
                               such as compensation, headcounts changes, payroll,
-                              and if applicable ROI and performance providing
+                              and, if applicable, ROI and performance, providing
                               detailed analytics dashboards across global
                               regions, functions, and cost centers.
                             </p>
@@ -479,7 +479,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Slalom_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-8 flex flex-col text-justify text-lg font-normal [&>li]:mt-2">
+                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Best Buy - Data Observability in GCP
@@ -487,17 +487,17 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-8 flex list-disc flex-col text-justify text-lg font-normal [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
                             <p>
                               Leveraged my expertise in Big Query, Dataflow,
-                              Cloud Functions, Data Studio (Looker Studio),
+                              Cloud Functions, Data Studio (Looker Studio), and
                               Stackdriver (Cloud Operations) to streamline the
                               collection of data ingestion and processing
-                              metrics and logs from various systems, pipeslines,
-                              and apis that exist within the Best Buy cloud
+                              metrics and logs from various systems, pipelines,
+                              and APIs that exist within the Best Buy cloud
                               environment.
                             </p>
                           </li>
@@ -505,18 +505,18 @@ const Home: NextPage = () => {
                           <li className="">
                             <p>
                               Implemented metrics and log data analytics to
-                              process and store terabytes of daily timeseries
-                              data, creating insights that lead to a cost
-                              savings of over half a million dollars per month
-                              through imrproved observability and better
-                              utilization of various cloud resources.
+                              process and store terabytes of daily time-series
+                              data, creating insights that lead to cost savings
+                              of over half a million dollars per month through
+                              improved observability and better utilization of
+                              various cloud resources.
                             </p>
                           </li>
 
                           <li className="">
                             <p>
-                              Contributed to the design and implementation of a
-                              highly available and scalable data infrastructure,
+                              Contributed to designing and implementing a highly
+                              available and scalable data infrastructure,
                               utilizing industry best practices and cloud
                               technologies.
                             </p>
@@ -531,7 +531,7 @@ const Home: NextPage = () => {
                         </span>
                         <ul
                           className={
-                            "mx-8 flex list-disc flex-col text-justify text-lg font-normal [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
@@ -547,23 +547,23 @@ const Home: NextPage = () => {
                           <li className="">
                             <p>
                               Improved legacy pipelines, achieving 15% more
-                              records processed utilizing less cpu and memory
-                              resources which led to cost savings.
+                              records processed utilizing less CPU and memory
+                              resources, led to cost savings.
                             </p>
                           </li>
                           <li className="">
                             <p>
                               Streamlined pipeline configuration and setup using
-                              Infrastructure as Code (IaC) and templated code,
-                              for optimizing intiial pipeline codebase setup per
+                              Infrastructure as Code (IaC) and templated code
+                              for optimizing initial pipeline codebase setup per
                               company standards.
                             </p>
                           </li>
                           <li className="">
                             <p>
-                              Technology used: Snowflake, S3, Step Functions,
-                              Lambda, SNS, Glue Data Catalog, ECS, CloudWatch,
-                              Datadog
+                              The technology used: Snowflake, S3, Step
+                              Functions, Lambda, SNS, Glue Data Catalog, ECS,
+                              CloudWatch, and Datadog.
                             </p>
                           </li>
                         </ul>
@@ -593,7 +593,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Slalom_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-8 flex flex-col text-justify text-lg font-normal [&>li]:mt-2">
+                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Kraft Heinz - Digital Marketing Data Platform
@@ -601,12 +601,12 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-8 flex list-disc flex-col text-justify text-lg font-normal [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
                             <p>
-                              Assisted in the architecture and implemention of a
+                              Assisted in the architecture and implementing of a
                               secure Data Lake on Google Cloud, leveraging Big
                               Query and Cloud Storage, to store and analyze
                               consumer and customer data, including personally
@@ -620,22 +620,21 @@ const Home: NextPage = () => {
                               Developed and implemented a scalable Customer 360
                               ingestion API and data pipeline, utilizing Apache
                               Beam (Composer), Google Cloud Dataflow, and Big
-                              Query to perform entity resolution and deliver a
-                              comprehensive view of each customer across
-                              multiple source systems.
+                              Query to perform entity resolution and
+                              comprehensively view each customer across multiple
+                              source systems.
                             </p>
                           </li>
 
                           <li className="">
                             <p>
-                              Utilized the Recency, Frequency, Monetary Value
-                              (RFM) model analysis to segment the consumer base
-                              based on their purchasing patterns and habits,
-                              providing insight into repeat customers vs new
-                              customers. When combined with the customer 360
-                              view, this model provided valuable information on
-                              the most effective methods for increasing
-                              conversion rates.
+                              Used the Recency, Frequency, Monetary Value (RFM)
+                              model analysis to segment the consumer base based
+                              on purchasing patterns and habits, providing
+                              insight into repeat customers vs. new customers.
+                              Combined with the customer 360 views, this model
+                              offered valuable information on the most effective
+                              methods for increasing conversion rates.
                             </p>
                           </li>
                           <li className="">
@@ -643,8 +642,8 @@ const Home: NextPage = () => {
                               Collaborated with the legal team to design and
                               implement a GDPR/CCPA data compliance process,
                               building a web portal for consumer data requests
-                              and a pipeline to automatically process requests
-                              upon legal review and action selection.
+                              and a pipeline to process requests upon legal
+                              review and action selection automatically.
                             </p>
                           </li>
                           <li className="">
@@ -699,7 +698,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Power_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-8 flex flex-col text-justify text-lg font-normal [&>li]:mt-2">
+                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Managed Services
@@ -707,12 +706,12 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-8 flex list-disc flex-col text-justify text-lg font-normal [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
                             <p>
-                              Worked as a Cloud administrator on Microsoft Azure
+                              Cloud administrator of Microsoft Azure
                               environments, which included Azure ADConnect
                               configuring virtual machines, storage accounts,
                               and Azure resource group.
@@ -721,21 +720,22 @@ const Home: NextPage = () => {
 
                           <li className="">
                             <p>
-                              Designed, planned and migrated deployments of
-                              customer on-premises data centers/applications to
-                              Microsoft Azure.
+                              Designed, planned, and migrated customer
+                              on-premises data centers/applications deployments
+                              to Microsoft Azure.
                             </p>
                           </li>
 
                           <li className="">
                             <p>
                               Troubleshoot VMware ESX, Windows Server, Active
-                              Directory, and physical infrastructure issues.
+                              Directory, and physical infrastructure issues,
+                              documenting and performing corrections.
                             </p>
                           </li>
                           <li className="">
                             <p>
-                              Configured and deployed MDM/Intune to Power
+                              I configured and deployed MDM/Intune for Power
                               Construction as well as many leading general
                               contracting firms.
                             </p>
@@ -750,16 +750,10 @@ const Home: NextPage = () => {
 
                           <li className="">
                             <p>
-                              Worked as Cloud Administrator on Microsoft Azure,
-                              involved in configuring virtual machines, storage
-                              accounts, and resource groups.
-                            </p>
-                          </li>
-                          <li className="">
-                            <p>
-                              Managed day-to-day activity of the cloud
+                              I managed the day-to-day activity of the cloud
                               environment, supporting development teams with
-                              their requirements.
+                              their requirements and considering available and
+                              future resources.
                             </p>
                           </li>
                         </ul>
