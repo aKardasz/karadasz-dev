@@ -24,43 +24,43 @@ const LeftContainer = () => {
         key="Sidebar-Header"
         className="flex w-full flex-col items-center justify-center p-2"
       >
-        <Image
+        {/* <Image
           className="h-32 w-32 rounded-full "
           width={36}
           height={36}
           src="/AdrianAvatar.svg"
           alt={""}
-        />
-        <h1 className="text-3xl font-semibold text-slate-200">
+        /> */}
+        <h1 className="text-4xl font-semibold text-slate-200">
           Adrian Kardasz
         </h1>
-        <h2 className="text-2xl font-medium italic text-slate-300 ">
+        <h2 className="text-3xl font-medium italic text-slate-300 ">
           Data Architect
         </h2>
         <div>
           <Link
             href="mailto:Adrian.kardasz1@gmail.com"
-            className="flex items-center gap-2 align-baseline text-lg font-normal "
+            className="flex items-center gap-2 align-baseline text-xl font-normal "
           >
             <Mail className="inline h-5" />
             Adrian.kardasz1
           </Link>
           <Link
             href="https://www.linkedin.com/in/adriankardasz/"
-            className="flex items-center gap-2 align-baseline text-lg font-normal "
+            className="flex items-center gap-2 align-baseline text-xl font-normal "
           >
             <Linkedin className="inline h-5 " />
             AdrianKardasz
           </Link>
           <Link
             href="https://github.com/aKardasz"
-            className="flex items-center gap-2 align-baseline text-lg font-normal "
+            className="flex items-center gap-2 align-baseline text-xl font-normal "
           >
             <Github className="inline h-5 " />
             AKardasz
           </Link>
 
-          <h3 className="flex items-center gap-2 align-baseline text-lg font-normal ">
+          <h3 className="flex items-center gap-2 align-baseline text-xl font-normal ">
             <MapPin className="inline h-5 " />
             Chicago, IL
           </h3>
@@ -163,7 +163,7 @@ const LeftContainer = () => {
             <p className="font-semibold text-slate-400">
               Cloud Infrastructure:
             </p>
-            <div className="flex flex-wrap justify-start gap-1 pl-2 pb-2 italic text-slate-400">
+            <div className="flex flex-wrap justify-start gap-1 pb-2 pl-2 italic text-slate-400">
               <p className=" text-sm">Compute Engine</p>
               <div>
                 <Separator orientation="vertical" />
@@ -235,7 +235,7 @@ const LeftContainer = () => {
             <p className="font-semibold text-slate-400">
               Tools and Frameworks:
             </p>
-            <div className="flex flex-wrap justify-start gap-1 pl-2 pb-2 italic text-slate-400">
+            <div className="flex flex-wrap justify-start gap-1 pb-2 pl-2 italic text-slate-400">
               <p className=" text-sm">Terraform</p>
               <div>
                 <Separator orientation="vertical" />
@@ -347,7 +347,7 @@ const Home: NextPage = () => {
               className="m-4 w-full max-w-none rounded-xl border-2 p-4"
             >
               <div key="ContentHeader_ProfessionalExperience" className="">
-                <h1 className="border-b-4 border-dashed border-slate-500 text-4xl font-bold drop-shadow-lg">
+                <h1 className="border-b-4 border-dashed border-slate-700 text-4xl font-bold text-slate-700 drop-shadow-lg">
                   Professional Experience
                 </h1>
               </div>
@@ -359,24 +359,27 @@ const Home: NextPage = () => {
                   <div key="Card_SolM_Header" className="border-b-[2px]">
                     <h2
                       key="Position_Name"
-                      className="text-3xl font-semibold drop-shadow-lg"
+                      className="text-3xl font-semibold text-slate-600 drop-shadow-lg"
                     >
                       Cloud Architect
                     </h2>
-                    <div className="flex items-end justify-between">
-                      <h3 key="Company_Name_Location" className=" text-2xl">
+                    <div className="flex items-end justify-between text-slate-500">
+                      <h3
+                        key="Company_Name_Location"
+                        className=" text-2xl text-slate-500"
+                      >
                         Sol-Millennium Medical Group | Chicago, IL
                       </h3>
                       <h4
                         key="WorkDurationRange"
-                        className="self-end text-xl font-light"
+                        className="self-end text-xl font-light text-slate-500"
                       >
                         2021/11 – Present
                       </h4>
                     </div>
                   </div>
                   <div key="Card_SolM_Body" className="drop-shadow-md">
-                    <ul className="text- mx-3 flex list-disc flex-col text-lg font-normal text-slate-600 md:mx-8 [&>li]:mt-2">
+                    <ul className="text- mx-3 flex list-disc flex-col text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2">
                       <span className="mt-2 text-xl font-bold text-slate-500">
                         Solution Architect - Azure Data Lake
                       </span>
@@ -462,17 +465,20 @@ const Home: NextPage = () => {
                   <div key="Card_Slalom_Header" className="border-b-[2px]">
                     <h2
                       key="Position_Name"
-                      className="text-3xl font-semibold drop-shadow-lg"
+                      className="text-3xl font-semibold text-slate-600 drop-shadow-lg"
                     >
                       Senior Data Engineer
                     </h2>
                     <div className="flex items-end justify-between">
-                      <h3 key="Company_Name_Location" className=" text-2xl">
+                      <h3
+                        key="Company_Name_Location"
+                        className=" text-2xl text-slate-500"
+                      >
                         Slalom | Chicago, IL
                       </h3>
                       <h4
                         key="WorkDurationRange"
-                        className="self-end text-xl font-light"
+                        className="self-end text-xl font-light text-slate-500"
                       >
                         2021/04 – 2021/11
                       </h4>
@@ -487,7 +493,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
@@ -531,7 +537,7 @@ const Home: NextPage = () => {
                         </span>
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
                           }
                         >
                           <li className="">
@@ -573,20 +579,26 @@ const Home: NextPage = () => {
                 </div>
                 <Divider />
                 <div key="Card_EvalueServe" className="rounded-xl">
-                  <div key="Card_EvalueServe_Header" className="border-b-[2px]">
+                  <div
+                    key="Card_EvalueServe_Header"
+                    className="border-b-[2px] "
+                  >
                     <h2
                       key="Position_Name"
-                      className="text-3xl font-semibold drop-shadow-lg"
+                      className="text-3xl font-semibold text-slate-600 drop-shadow-lg"
                     >
                       Data Engineer
                     </h2>
                     <div className="flex items-end justify-between">
-                      <h3 key="Company_Name_Location" className=" text-2xl">
+                      <h3
+                        key="Company_Name_Location"
+                        className=" text-2xl text-slate-500"
+                      >
                         Evalueserve | Chicago, IL
                       </h3>
                       <h4
                         key="WorkDurationRange"
-                        className="self-end text-xl font-light"
+                        className="self-end text-xl font-light text-slate-500"
                       >
                         2020/02 – 2021/04
                       </h4>
@@ -601,7 +613,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
@@ -680,18 +692,21 @@ const Home: NextPage = () => {
                   <div key="Card_Power_Header" className="border-b-[2px]">
                     <h2
                       key="Position_Name"
-                      className="text-3xl font-semibold drop-shadow-lg"
+                      className="text-3xl font-semibold text-slate-600 drop-shadow-lg"
                     >
                       Cloud Engineer
                     </h2>
                     <div className="flex items-end justify-between">
-                      <h3 key="Company_Name_Location" className=" text-2xl">
+                      <h3
+                        key="Company_Name_Location"
+                        className=" text-2xl text-slate-500"
+                      >
                         Power Construction (Palmer Consulting Group) | Chicago,
                         IL
                       </h3>
                       <h4
                         key="WorkDurationRange"
-                        className="self-end text-xl font-light"
+                        className="self-end text-xl font-light text-slate-500"
                       >
                         2018/06 – 2020/02
                       </h4>
@@ -706,7 +721,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2"
+                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
                           }
                         >
                           <li className="">
