@@ -37,7 +37,7 @@ const LeftContainer = () => {
         <h2 className="text-3xl font-medium italic text-slate-300 ">
           Data Architect
         </h2>
-        <div>
+        <div className="">
           <Link
             href="mailto:Adrian.kardasz1@gmail.com"
             className="flex items-center gap-2 align-baseline text-xl font-normal "
@@ -324,9 +324,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Kardasz.Dev</title>
+        <title>Kardasz.dev</title>
         <meta name="description" content="Adrian Kardasz Resume Site." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icons8-working-with-a-laptop-color-96.png" />
       </Head>
       <main
         suppressHydrationWarning
@@ -341,7 +341,7 @@ const Home: NextPage = () => {
         >
           <LeftContainer />
 
-          <div key="RightContainer" className="flex flex-1">
+          <div key="RightContainer" className="flex flex-1 flex-wrap">
             <div
               key="ContentTopic_ProfessionalExperience"
               className="m-4 w-full max-w-none rounded-xl border-2 p-4"
@@ -776,6 +776,16 @@ const Home: NextPage = () => {
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="flex h-16 w-full items-center justify-around bg-slate-200 text-slate-400">
+              <div>
+                <p>Kardasz.dev © 2023</p>
+              </div>
+              <div>
+                <a target="_blank" href="https://icons8.com">
+                  Icons8
+                </a>
               </div>
             </div>
           </div>
