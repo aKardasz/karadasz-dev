@@ -163,8 +163,8 @@ const LeftContainer = () => {
             <p className="font-semibold text-slate-400">
               Cloud Infrastructure:
             </p>
-            <div className="flex flex-wrap justify-start gap-1 pb-2 pl-2 italic text-slate-400">
-              <p className=" text-sm">Compute Engine</p>
+            <div className="flex flex-wrap justify-start gap-2 pb-2 pl-2 italic text-slate-400">
+              <p className="text-sm">Compute Engine</p>
               <div>
                 <Separator orientation="vertical" />
               </div>
@@ -172,11 +172,12 @@ const LeftContainer = () => {
               <div>
                 <Separator orientation="vertical" />
               </div>
-              <p className="text-sm ">Cloud Composer</p>
+              <p className="text-sm ">Cloud SQL</p>
               <div>
                 <Separator orientation="vertical" />
               </div>
-              <p className="text-sm ">Cloud SQL</p>
+              <p className="text-sm ">Bigtable</p>
+
               <div>
                 <Separator orientation="vertical" />
               </div>
@@ -184,7 +185,8 @@ const LeftContainer = () => {
               <div>
                 <Separator orientation="vertical" />
               </div>
-              <p className="text-sm ">Bigtable</p>
+              <p className="text-sm ">Cloud Composer</p>
+
               <div>
                 <Separator orientation="vertical" />
               </div>
@@ -220,6 +222,18 @@ const LeftContainer = () => {
               <div>
                 <Separator orientation="vertical" />
               </div>
+              <p className="text-sm ">App Engine</p>
+              <div>
+                <Separator orientation="vertical" />
+              </div>
+              <p className="text-sm ">Cloud Run</p>
+              <div>
+                <Separator orientation="vertical" />
+              </div>
+              <p className="text-sm ">GKE</p>
+              <div>
+                <Separator orientation="vertical" />
+              </div>
               <p className="text-sm ">Firestore</p>
               <div>
                 <Separator orientation="vertical" />
@@ -235,7 +249,7 @@ const LeftContainer = () => {
             <p className="font-semibold text-slate-400">
               Tools and Frameworks:
             </p>
-            <div className="flex flex-wrap justify-start gap-1 pb-2 pl-2 italic text-slate-400">
+            <div className="flex flex-wrap justify-start gap-2 pb-2 pl-2 italic text-slate-400">
               <p className=" text-sm">Terraform</p>
               <div>
                 <Separator orientation="vertical" />
@@ -295,7 +309,26 @@ const LeftContainer = () => {
               <p className="text-sm ">Puppet</p>
             </div>
           </li>
-
+          <p className="font-semibold text-slate-400">Programming Languages:</p>
+          <div className="flex flex-wrap justify-start gap-2 pb-2 pl-2 italic text-slate-400">
+            <p className="text-sm">Python</p>
+            <div>
+              <Separator orientation="vertical" />
+            </div>
+            <p className="text-sm ">Golang</p>
+            <div>
+              <Separator orientation="vertical" />
+            </div>
+            <p className="text-sm ">Java</p>
+            <div>
+              <Separator orientation="vertical" />
+            </div>
+            <p className="text-sm ">JavaScript</p>
+            <div>
+              <Separator orientation="vertical" />
+            </div>
+            <p className="text-sm ">C#</p>
+          </div>
           <li className="font-semibold text-slate-400">
             Configuration Management
           </li>
