@@ -168,7 +168,7 @@ const LeftContainer = () => {
               <div>
                 <Separator orientation="vertical" />
               </div>
-              <p className="text-sm ">Biguqery</p>
+              <p className="text-sm ">Bigquery</p>
               <div>
                 <Separator orientation="vertical" />
               </div>
@@ -318,9 +318,8 @@ const Divider = () => {
     </>
   );
 };
-const Home: NextPage = () => {
-  // const hello = api.example.hello.useQuery({ text: "from tRPC" });
 
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -379,11 +378,11 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_SolM_Body" className="drop-shadow-md">
-                    <ul className="text- mx-3 flex list-disc flex-col text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2">
+                    <ul className="text- mx-2 flex list-disc flex-col text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2">
                       <span className="mt-2 text-xl font-bold text-slate-500">
                         Solution Architect - Azure Data Lake
                       </span>
-                      <li className="mx-3 font-normal md:mx-8">
+                      <li className="mx-2 font-normal md:mx-8">
                         <p>
                           Collaborated with cross-functional teams to plan,
                           design, and implement integrations with outside
@@ -391,7 +390,7 @@ const Home: NextPage = () => {
                           ensuring seamless communication and coordination.
                         </p>
                       </li>
-                      <li className="mx-3 font-normal md:mx-8">
+                      <li className="mx-2 font-normal md:mx-8">
                         <p>
                           Developed robust pipelines and integrations between
                           SAP B1 and multiple platforms, such as Salesforce,
@@ -400,7 +399,7 @@ const Home: NextPage = () => {
                           and Azure Analytics.
                         </p>
                       </li>
-                      <li className="mx-3 font-normal md:mx-8">
+                      <li className="mx-2 font-normal md:mx-8">
                         <p>
                           Designed and lead a company Data
                           Exploration/Collection initiative to allow any
@@ -414,7 +413,7 @@ const Home: NextPage = () => {
                         </p>
                       </li>
 
-                      <li className="mx-3 font-normal md:mx-8">
+                      <li className="mx-2 font-normal md:mx-8">
                         <p>
                           Reviewed, researched, and created company toolings
                           such as single page web applications using ReactJS for
@@ -429,7 +428,7 @@ const Home: NextPage = () => {
                             <b className="font-medium text-slate-600">
                               Web Application 1:
                             </b>
-                            <p className="ml-8 text-left font-normal">
+                            <p className="ml-4 text-left font-normal">
                               Manages dynamic approval workflows taking into
                               consideration company code, cost center, region,
                               location, and function for requests such as
@@ -447,7 +446,7 @@ const Home: NextPage = () => {
                             <b className="font-medium text-slate-600">
                               Web Application 2:
                             </b>
-                            <p className="ml-8 text-left font-normal">
+                            <p className="ml-4 text-left font-normal">
                               Handles the collection of global employee data
                               such as compensation, headcounts changes, payroll,
                               and, if applicable, ROI and performance, providing
@@ -485,7 +484,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Slalom_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
+                    <ul className="list-None mx-2 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Best Buy - Data Observability in GCP
@@ -493,7 +492,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
+                            "mx-2 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
@@ -537,7 +536,7 @@ const Home: NextPage = () => {
                         </span>
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
+                            "mx-2 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
                           }
                         >
                           <li className="">
@@ -605,7 +604,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Slalom_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
+                    <ul className="list-None mx-2 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Kraft Heinz - Digital Marketing Data Platform
@@ -613,7 +612,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
+                            "mx-2 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2"
                           }
                         >
                           <li className="">
@@ -713,7 +712,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                   <div key="Card_Power_Body" className="drop-shadow-md">
-                    <ul className="list-None mx-3 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
+                    <ul className="list-None mx-2 flex flex-col text-left text-lg font-normal md:mx-8 [&>li]:mt-2">
                       <li className="text-lg font-bold text-slate-600">
                         <span className="text-xl text-slate-500">
                           Managed Services
@@ -721,7 +720,7 @@ const Home: NextPage = () => {
 
                         <ul
                           className={
-                            "mx-3 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
+                            "mx-2 flex list-disc flex-col text-left text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2 "
                           }
                         >
                           <li className="">
