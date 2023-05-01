@@ -413,7 +413,7 @@ const Home: NextPage = () => {
                   <div key="Card_SolM_Body" className="drop-shadow-md">
                     <ul className="text- mx-2 flex list-disc flex-col text-lg font-normal text-slate-500 md:mx-8 [&>li]:mt-2">
                       <span className="mt-2 text-xl font-bold text-slate-500">
-                        Solution Architect - Azure Data Lake
+                        Solution Architect - Google Cloud Data Lake
                       </span>
                       <li className="mx-2 font-normal md:mx-8">
                         <p>
