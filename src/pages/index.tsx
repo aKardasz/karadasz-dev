@@ -427,22 +427,22 @@ const Home: NextPage = () => {
                         <p>
                           Developed robust pipelines and integrations between
                           SAP B1 and multiple platforms, such as Salesforce,
-                          SPS, and Amazon. Leveraging Azure services like Azure
-                          Functions, Azure Managed SQL server, Azure Databricks,
-                          and Azure Analytics.
+                          SPS, and Amazon, leveraging GCP services like Google
+                          Cloud Functions, Google Cloud SQL, Google Cloud
+                          Storage, and Google Cloud Dataflow for efficient data
+                          processing, storage, and management.
                         </p>
                       </li>
                       <li className="mx-2 font-normal md:mx-8">
                         <p>
-                          Designed and lead a company Data
-                          Exploration/Collection initiative to allow any
-                          business stakeholders to begin the process of building
-                          and transforming critical business data utilizing
-                          Microsoft Power Platform services such as Dataverse,
-                          Power Automate, and Power Apps. This initiative
-                          improved collaboration and the discovery and
-                          collection of various previously unutilized data
-                          sources.
+                          Designed and led a company Data Exploration/Collection
+                          initiative to allow any business stakeholders to begin
+                          the process of building and transforming critical
+                          business data utilizing GCP services such as Google
+                          Cloud Dataprep, Google Cloud Data Studio, and Google
+                          Cloud App Engine. This initiative improved
+                          collaboration and the discovery and collection of
+                          various previously unutilized data sources.
                         </p>
                       </li>
 
@@ -451,10 +451,10 @@ const Home: NextPage = () => {
                           Reviewed, researched, and created company toolings
                           such as single page web applications using ReactJS for
                           the user interface, python for the backend, utilizing
-                          services like Azure static web apps, Azure Functions,
-                          Azure Active Directory, Azure blob storage, and Azure
-                          Sql managed services for easier infrastructure
-                          maintenance with key business stakeholders.
+                          GCP services like Google Cloud Functions, Google Cloud
+                          Storage, Google Cloud Pub/Sub, and Google Cloud SQL,
+                          Cloud Run for easier infrastructure maintenance with
+                          key business stakeholders.
                         </p>
                         <ul className=" list-none [&>li]:mt-2">
                           <li>
@@ -472,7 +472,7 @@ const Home: NextPage = () => {
                               automated manner. With the benefit of integrations
                               between vital company services and software like
                               BambooHR, Microsoft Office, SAP B1, Salesforce,
-                              and Powerbi.
+                              and Google Cloud Data Studio.
                             </p>
                           </li>
                           <li>
